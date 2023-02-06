@@ -6,8 +6,8 @@ const App = ({ Component, pageProps }) => {
 <Seo
 title="Gabriel Maggioni - Web Developer"
 url="https://devmaggioni.vercel.app"
-description="Meu portfólio 😝"
-image="/images/thumb.webp"
+description="Portfólio desenvolvedor web"
+image="https://devmaggioni.vercel.app/images/thumb.webp"
 keywords="dev, desenvolvedor, programador, desenvolvedor web, gabriel maggioni, web developer, desenvolvedor web, portfólio, currículo"
 />
 <Header/>
