@@ -11,6 +11,11 @@ left: 0;
 z-index: 1;
 box-shadow: 3px 3px 5px rgba(0,0,0,.2);
 
+-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 h1 {
    display: inline-block;
    margin-left: 3rem;

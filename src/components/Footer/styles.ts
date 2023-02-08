@@ -11,6 +11,11 @@ export const Container = styled.footer`
    margin-top: 20rem;
    position: relative;
    
+-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+   
    #creds {
      color: rgba(255,255,255,0.2);
      bottom: 0;
