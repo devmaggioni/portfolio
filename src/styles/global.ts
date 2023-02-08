@@ -26,7 +26,7 @@ word-break: break-word;
 hyphens: auto;
 cursor: auto;
 
-i {
+i, button {
 -webkit-user-select: none;
 -moz-user-select: none;
 -ms-user-select: none;
