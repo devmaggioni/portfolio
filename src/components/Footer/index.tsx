@@ -11,7 +11,7 @@ const Component = () => {
        <i class="fa-brands fa-github"
        onClick={()=>redirect("https://github.com/devmaggioni")}/>
        <i class="fa-brands fa-square-instagram"
-       onClick={()=>redirect("https://instagram.com/andeddo.cat")}
+       onClick={()=>redirect("https://instagram.com/andeddocat")}
        />
        <i class="fa-brands fa-telegram"
        onClick={()=>redirect("https://t.me/devUndeadCat")}

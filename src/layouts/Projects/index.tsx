@@ -16,6 +16,16 @@ const Layout = () => {
       <JobsContainer>
       
 <Fade left opposite cascade>
+      <Card onClick={()=>redirect("https://example-nextjs-astronaut.vercel.app/")}>
+      <ImageContainer>
+      <img src="/images/previews/5.webp" alt='preview'/>
+      </ImageContainer>
+      <h2>Landing Page Astronauta</h2>
+      <p>landing page sobre tecnologia</p>
+      </Card>
+</Fade>
+      
+<Fade left opposite cascade>
       <Card onClick={()=>redirect("https://example-nextjs-ecommerce-five.vercel.app/")}>
       <ImageContainer>
       <img src="/images/previews/0.webp" alt='preview'/>
