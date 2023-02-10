@@ -24,12 +24,21 @@ word-break: break-word;
 hyphens: auto;
 cursor: auto;
 
-i, button, h1, h2, h3, img {
+i, button, h1, h2, h3 {
 -webkit-user-select: none;
 -khtml-user-select: none;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+}
+
+img {
+   user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
 }
 }
 
