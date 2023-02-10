@@ -20,10 +20,10 @@ const Layout = () => {
       <p>+55 (49) 9168-1611</p>
       </Card>
       
-      <Card onClick={()=>redirect("https://t.me/devUndeadCat")}>
+      <Card onClick={()=>redirect("https://t.me/AndeddoCat")}>
       <i class="fa-brands fa-telegram"></i>
       <h2>Telegram</h2>
-      <p>@devUndeadCat</p>
+      <p>@AndeddoCat</p>
       </Card>
       
       <Card onClick={()=>redirect("mailto:devmaggioni+portfolio@gmail.com")}>
