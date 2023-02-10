@@ -19,7 +19,7 @@ const Layout = () => {
    return (
       <Container>
          <Introduction>
-            <ImageContainer>
+            <ImageContainer draggable="false">
                <div id="container">
                   <img src="/images/cat2.webp" alt="logo" />
                </div>
