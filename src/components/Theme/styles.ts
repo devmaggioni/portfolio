@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ThemeButton = styled.div`
    display: inline-block;
    padding: 1rem;
-   margin-top: 6rem;
+   margin-top: 2rem;
    margin-left: 1rem;
 
    i {

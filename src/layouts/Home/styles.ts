@@ -6,6 +6,7 @@ export const Container = styled.main`
    min-height: 100vh;
    width: 100%;
    position: relative;
+   margin-top: 0;
 
    button {
       display: flex;

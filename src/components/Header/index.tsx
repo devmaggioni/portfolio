@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'
 const Component = () => {
    const router = useRouter()
 
+   const [show, setShow] = useState(false)
    const [icon, setIcon] = useState('fa-solid fa-bars')
 
    const handleIcon = () => {
@@ -16,13 +17,14 @@ const Component = () => {
    }
 
    return (
-      <Container>
+      <Container show={show}>
          <h1 onClick={() => router.push('/')}>Portfólio</h1>
          <i
             className={icon}
             onClick={() => {
                handleMenu()
                handleIcon()
+               setShow(!show)
             }}
          />
       </Container>

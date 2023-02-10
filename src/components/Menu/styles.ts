@@ -25,12 +25,12 @@ export const Container = styled.div`
    background-color: #1b262c;
    position: fixed;
    left: 0;
-   top: 5rem;
+   top: 0;
    z-index: 1;
    animation: ${slide} 0.5s;
 
    ul {
-      top: 35%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       position: absolute;
