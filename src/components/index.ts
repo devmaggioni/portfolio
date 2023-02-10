@@ -7,8 +7,8 @@ import Banner from './Banner'
 import SearchBar from './SearchBar'
 import Popup from './Popup'
 import PageNotFound from './PageNotFound'
-import Theme from "./Theme"
-import Menu from "./Menu"
+import Theme from './Theme'
+import Menu from './Menu'
 
 export {
    Banner,

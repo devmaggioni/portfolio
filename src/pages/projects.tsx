@@ -1,9 +1,7 @@
-import { Projects } from "../layouts"
+import { Projects } from '../layouts'
 
 const Page = () => {
-   return (
-       <Projects/>
-      )
+   return <Projects />
 }
 
 export default Page

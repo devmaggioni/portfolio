@@ -10,25 +10,25 @@ export const Container = styled.footer`
    position: relative;
    margin-top: 20rem;
    position: relative;
-   
--webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-   
+
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
    #creds {
-     color: rgba(255,255,255,0.2);
-     bottom: 0;
-     left: 50%;
+      color: rgba(255, 255, 255, 0.2);
+      bottom: 0;
+      left: 50%;
       position: absolute;
       transform: translate(-50%, -50%);
    }
 
-#socialContainer{
-margin-bottom: 3rem;
-   i {
-      font-size: 3.5rem;
-      margin-inline: 1rem;
+   #socialContainer {
+      margin-bottom: 3rem;
+      i {
+         font-size: 3.5rem;
+         margin-inline: 1rem;
+      }
    }
-}
 `
