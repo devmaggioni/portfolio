@@ -49,8 +49,7 @@ ${style ? style : '@media(min-width:450px){font-size: 4rem; } font-size: 3rem; c
       <>
       <Container>
             {text}
-            {!hideCursor ? <TextCursor /> : <></> 
-            }
+
          </Container> < />
    )
 }
