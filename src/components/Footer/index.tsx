@@ -16,7 +16,7 @@ const Component = () => {
             />
             <i
                class="fa-brands fa-telegram"
-               onClick={() => redirect('https://t.me/devUndeadCat')}
+               onClick={() => redirect('https://t.me/AndeddoCat')}
             />
          </div>
 
