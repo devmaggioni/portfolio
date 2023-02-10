@@ -2,7 +2,6 @@ import styled, { keyframes } from 'styled-components'
 
 const rotate = keyframes` from { transform: rotate(0deg); opacity: .3; } to { transform: rotate(180deg); opacity: 1; }`
 
-
 export const Container = styled.header`
    width: 100%;
    border-bottom: 2px solid #2b5876;
@@ -30,10 +29,10 @@ export const Container = styled.header`
       position: fixed;
       top: 1rem;
       right: 1rem;
-      padding: .9rem;
-      background-color: #2B5876;
+      padding: 0.9rem;
+      background-color: #2b5876;
       border-radius: 5px;
       border: 1px solid black;
-      animation: ${(props) => (props.show ? rotate : '')} .5s ease-in-out;
+      animation: ${(props) => (props.show ? rotate : '')} 0.5s ease-in-out;
    }
 `

@@ -1,9 +1,7 @@
-import { Contact } from "../layouts"
+import { Contact } from '../layouts'
 
 const Page = () => {
-   return (
-<Contact/>
-     )
+   return <Contact />
 }
 
 export default Page
