@@ -36,7 +36,7 @@ export const Card = styled.div`
       margin-bottom: 1.5rem;
       width: 450px;
       height: 450px;
-      overflow-y: hidden;
+      overflow: hidden;
       border-radius: 20px;
       box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
    }

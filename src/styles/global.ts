@@ -24,8 +24,9 @@ word-break: break-word;
 hyphens: auto;
 cursor: auto;
 
-i, button, h1, h2, h3 {
+i, button, h1, h2, h3, img {
 -webkit-user-select: none;
+-khtml-user-select: none;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
