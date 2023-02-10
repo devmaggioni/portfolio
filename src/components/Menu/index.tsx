@@ -12,7 +12,7 @@ const Component = () => {
          <ul>
             <li onClick={() => redirect('/')}>Home</li>
             <li onClick={() => redirect('/projects')}>Projetos</li>
-            <li onClick={() => redirect('/projects/#footer')}>Contato</li>
+            <li onClick={() => redirect('/contact')}>Contato</li>
          </ul>
       </Container>
    )

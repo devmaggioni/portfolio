@@ -30,7 +30,7 @@ export const Container = styled.div`
    animation: ${slide} 0.5s;
 
    ul {
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
       position: absolute;
