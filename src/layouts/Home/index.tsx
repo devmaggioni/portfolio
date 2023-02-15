@@ -27,7 +27,7 @@ const Layout = () => {
 
             <Me>
                <h1 id="a_title">Olá, eu sou o </h1>
-               <TypeWriter value="Gabriel Maggioni" speed={100} sleep={900} />
+               <TypeWriter value="Gabriel Maggioni" speed={100} sleep={200} />
                <TypeWriter
                   style={`
 font-size: 1.4rem;
@@ -37,7 +37,7 @@ font-weight: 400;
 `}
                   hideCursor
                   value="desenvolvedor web"
-                  sleep={2500}
+                  sleep={1500}
                   speed={100}
                />
             </Me>

@@ -6,7 +6,7 @@ import {
 
 const Layout = () => {
    
-   const redirect = (url) => location.href = url
+   const redirect = (url) => window.open(url, "_blank")
    
    return (
       <Container>
