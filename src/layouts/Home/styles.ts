@@ -135,8 +135,8 @@ export const Card = styled.div`
       margin-inline: 1rem;
       max-height: 35rem;
    }
-   overflow-x: scroll;
-   overflow-y: hidden;
+   overflow-x: hidden;
+   overflow-y: scroll;
    width: 90%;
    max-width: 400px;
    margin-inline: auto;
