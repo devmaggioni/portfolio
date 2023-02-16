@@ -2,6 +2,8 @@
 
 Este é um projeto de portfólio desenvolvido com Next.js e Styled Components. O objetivo é exibir informações sobre o desenvolvedor e seus projetos.
 
+[visitar](https://devmaggioni.vercel.app)
+
 ---
 
 ## Instalação
