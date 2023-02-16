@@ -1,2 +1,0 @@
--  flaticon ícones
--  https://www.freepik.com banners

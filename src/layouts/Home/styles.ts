@@ -7,6 +7,7 @@ export const Container = styled.main`
    width: 100%;
    position: relative;
    margin-top: 0;
+   overflow: hidden;
 
    button {
       display: flex;
@@ -131,8 +132,11 @@ text-align: center;
 `
 
 export const Card = styled.div`
+@media(min-width: 450px){
+   margin-inline: 1rem;
+}
    width: 90%;
-   max-width: 450px;
+   max-width: 400px;
    margin-inline: auto;
    min-height: 20rem;
    border: 1px solid black;
@@ -196,8 +200,9 @@ export const Card = styled.div`
 
 export const CardsContainer = styled.div`
    @media (min-width: 450px) {
-      display: grid;
-      grid-template-columns: 450px 450px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
       justify-content: center;
    }
    margin-top: 10rem;
@@ -207,4 +212,5 @@ export const CardsContainer = styled.div`
    border-top: 2px solid black;
    border-bottom: 2px solid black;
    animation: ${fade} 2s;
+   overflow: hidden;
 `
