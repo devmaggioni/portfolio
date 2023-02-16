@@ -200,9 +200,9 @@ export const Card = styled.div`
 
 export const CardsContainer = styled.div`
    @media (min-width: 450px) {
-      display: flex;
+      display: inline-flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      align-items: center;
       justify-content: center;
    }
    margin-top: 10rem;
