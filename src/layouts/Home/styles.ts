@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { pulse, pulseLight, fade } from './animations'
+import { pulse, pulseLight, fade } from './keyframeAnimations'
 
 export const Container = styled.main`
    min-height: 100vh;
@@ -132,9 +132,12 @@ text-align: center;
 `
 
 export const Card = styled.div`
-@media(min-width: 450px){
-   margin-inline: 1rem;
-}
+   @media (min-width: 450px) {
+      margin-inline: 1rem;
+      max-height: 35rem;
+   }
+   overflow-x: scroll;
+   overflow-y: hidden;
    width: 90%;
    max-width: 400px;
    margin-inline: auto;
@@ -200,9 +203,10 @@ export const Card = styled.div`
 
 export const CardsContainer = styled.div`
    @media (min-width: 450px) {
-      display: inline-flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      display: grid;
+      width: auto;
+      padding-inline: 2rem;
+      grid-template-columns: auto auto;
       justify-content: center;
    }
    margin-top: 10rem;

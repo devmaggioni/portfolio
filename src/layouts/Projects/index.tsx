@@ -2,7 +2,7 @@ import { Container, JobsContainer, ImageContainer, Card } from './styles'
 import Fade from 'react-reveal/Fade'
 
 const Layout = () => {
-   const redirect = (url) => (window.open(url, "_blank"))
+   const redirect = (url) => window.open(url, '_blank')
 
    return (
       <Container>

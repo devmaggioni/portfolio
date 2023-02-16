@@ -31,7 +31,8 @@ export const CardContainer = styled.div`
 export const Card = styled.div`
    @media (min-width: 450px) {
       margin: 0;
-      margin-inline: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 2rem;
    }
    width: 20rem;
    height: 20rem;
