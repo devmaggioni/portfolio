@@ -16,6 +16,7 @@ const Layout = () => {
    const router = useRouter()
 
    const redirect = (url) => window.open(url, '_blank')
+   const anotherRedirect = (url) => router.push(url)
 
    return (
       <Container>
@@ -44,14 +45,8 @@ font-weight: 400;
             </Me>
          </Introduction>
 
-         <button
-            onClick={() =>
-               redirect(
-                  'https://wa.me/5549991681611?text=Ol%C3%A1%21%20Eu%20visitei%20seu%20site%20e%20me%20interessei%20no%20seu%20trabalho%21'
-               )
-            }
-         >
-            Contrate meus serviços
+         <button onClick={() => anotherRedirect('/contact')}>
+            Entre em contato comigo
          </button>
 
          <button onClick={() => router.push('/projects')}>

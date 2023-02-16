@@ -7,6 +7,7 @@ Este é um projeto de portfólio desenvolvido com Next.js e Styled Components. O
 ---
 
 ## Instalação
+
 Clone o repositório usando o comando:
 
 ```bash
@@ -20,6 +21,7 @@ cd portfolio
 ```
 
 Instale as dependências do projeto:
+
 ```bash
 npm i --force
 ```
@@ -33,9 +35,11 @@ Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 ```bash
 npm run dev
 ```
+
 Abra o navegador e acesse `http://localhost:3000`.
 
 ## Estrutura do projeto
+
 A seguir, apresentamos a estrutura do projeto:
 
 `public`: diretório onde são armazenados arquivos estáticos, como imagens e ícones.
@@ -56,6 +60,7 @@ pages: diretório onde se encontram as páginas da aplicação.
 ---
 
 ## Páginas
+
 O projeto possui três páginas:
 
 `/`: página inicial, que contém informações sobre o desenvolvedor, suas habilidades e projetos recentes.
@@ -67,6 +72,7 @@ O projeto possui três páginas:
 ---
 
 ## Componentes
+
 O projeto possui vários componentes reutilizáveis. A seguir, descrevemos os principais:
 
 `Animations`: componente que contém animações.
@@ -82,6 +88,7 @@ O projeto possui vários componentes reutilizáveis. A seguir, descrevemos os pr
 `Theme`: componente que define o tema e o esquema de cores da aplicação.
 
 ## Layouts
+
 Layouts é o local onde os `Components` são montado e exportados. O projeto possui três layouts:
 
 `Home`: layout da página inicial.
@@ -94,4 +101,5 @@ Home: layout da página inicial.
 ---
 
 ## Conclusão
+
 O uso do Next.js e do Styled Components permite uma maior facilidade de desenvolvimento e manutenção da aplicação.

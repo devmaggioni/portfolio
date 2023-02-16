@@ -7,7 +7,6 @@ export const Container = styled.main`
    width: 100%;
    position: relative;
    margin-top: 0;
-   overflow: hidden;
 
    button {
       display: flex;
