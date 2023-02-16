@@ -133,15 +133,9 @@ text-align: center;
 export const Card = styled.div`
    @media (min-width: 450px) {
       margin-inline: 1rem;
-      max-height: 35rem;
    }
-   ::-webkit-scrollbar {
-      display: none;
-   }
-   -ms-overflow-style: none;
-   scrollbar-width: none;
    overflow-x: hidden;
-   overflow-y: scroll;
+   overflow-y: hidden;
    width: 90%;
    max-width: 400px;
    margin-inline: auto;
@@ -211,6 +205,7 @@ export const CardsContainer = styled.div`
       width: auto;
       padding-inline: 2rem;
       grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto;
       justify-content: center;
    }
    margin-top: 10rem;
