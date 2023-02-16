@@ -135,6 +135,11 @@ export const Card = styled.div`
       margin-inline: 1rem;
       max-height: 35rem;
    }
+   ::-webkit-scrollbar {
+      display: none;
+   }
+   -ms-overflow-style: none;
+   scrollbar-width: none;
    overflow-x: hidden;
    overflow-y: scroll;
    width: 90%;
