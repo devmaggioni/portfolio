@@ -41,7 +41,7 @@ const Layout = () => {
                </Card>
             </Fade>
 
-            <Fade left opposite cascade>
+            {/*<Fade left opposite cascade>
                <Card onClick={() => redirect('https://undeadcat.tech')}>
                   <ImageContainer>
                      <img src="/images/previews/1.webp" alt="preview" />
@@ -54,7 +54,7 @@ const Layout = () => {
                      NextJs.
                   </p>
                </Card>
-            </Fade>
+            </Fade>*/}
 
             <Fade right opposite cascade>
                <Card

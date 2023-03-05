@@ -2,11 +2,6 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
-@font-face {
-font-family: "Marcha";
-src: url("/fonts/Marcha.otf") format("opentype");
-}
-
 * {
 box-sizing: border-box;
 margin: 0;
